@@ -20,7 +20,7 @@ const sizes = {
 
 const styles = {
   outline: "bg-white border-2 border-black hover:bg-gray-100 text-black",
-  primary: "bg-black text-white hover:bg-gray-800  border-2 border-transparent",
+  primary: "text-white hover:bg-gray-800  border-2 border-transparent",
   inverted: "bg-white text-black border-2 border-transparent",
   muted: "bg-gray-100 hover:bg-gray-200 border-2 border-transparent",
 };
@@ -30,7 +30,7 @@ const styles = {
   <NuxtLink
     :href="href"
     :class="[
-      'rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200',
+      'main-btn rounded text-center transition focus-visible:ring-2 ring-offset-2 ring-gray-200',
       block && 'w-full',
       sizes[size],
       styles[styleName],
@@ -38,3 +38,9 @@ const styles = {
     ><slot />
   </NuxtLink>
 </template>
+<style scoped>
+.main-btn{
+  border-radius:60px ;
+  background: #73BE48;
+}
+</style>

@@ -31,25 +31,15 @@ const open = ref(false);
         </a>
         <div class="block lg:hidden">
           <button @click="open = !open" class="text-gray-800">
-            <svg
-              fill="currentColor"
-              class="w-4 h-4"
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <title>Menu</title>
-              <path
-                v-show="open"
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M18.278 16.864a1 1 0 01-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 01-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 011.414-1.414l4.829 4.828 4.828-4.828a1 1 0 111.414 1.414l-4.828 4.829 4.828 4.828z"
-              ></path>
-              <path
-                v-show="!open"
-                fill-rule="evenodd"
-                d="M4 5h16a1 1 0 010 2H4a1 1 0 110-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2zm0 6h16a1 1 0 010 2H4a1 1 0 010-2z"
-              ></path>
-            </svg>
+           <img
+      
+        src="~/assets/img/logosekolahbahasa.png"
+        alt="Starship starts the engine"
+        loading="eager"
+        format="avif"
+        width="512"
+        height="512"
+      />
           </button>
         </div>
       </div>
@@ -69,7 +59,7 @@ const open = ref(false);
         </ul>
         <div class="lg:hidden flex items-center mt-3 gap-4">
           <LandingLink href="#" styleName="muted" block size="md"
-            >Log in</LandingLink
+            >Log inasas</LandingLink
           >
           <LandingLink href="#" size="md" block>Sign up</LandingLink>
         </div>
