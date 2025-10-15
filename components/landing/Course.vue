@@ -291,6 +291,7 @@
 .course,
 .course * {
   box-sizing: border-box;
+   font-family: "Nunito",sans-serif;
 }
 .course {
   background: #ffffff;
@@ -303,6 +304,7 @@
   justify-content: flex-start;
   position: relative;
   overflow: hidden;
+   font-family: "Nunito",sans-serif;
 }
 .container {
   display: flex;
@@ -341,7 +343,7 @@
 .tagline {
   color: var(--color-white, #ffffff);
   text-align: left;
-  font-family: "Nunito-Black", sans-serif;
+  
   font-size: 1.5rem;
   line-height: 150%;
   letter-spacing: 0.09em;
@@ -361,8 +363,8 @@
 }
 .heading {
   color: var(--color-scheme-3-text, #010207);
-  text-align: left;
-  font-family: "Nunito-Black", sans-serif;
+  text-align: center;
+  
   font-size: var(--text-sizes-heading-3, 2.75rem);
   line-height: 120%;
   letter-spacing: -0.01em;
@@ -372,15 +374,7 @@
 }
 .text {
   color: var(--color-scheme-3-text, #010207);
-  text-align: left;
-  font-family: var(
-    --text-medium-normal-font-family,
-    "Nunito-Regular",
-    sans-serif
-  );
-  font-size: var(--text-medium-normal-font-size, 1.125rem);
-  line-height: var(--text-medium-normal-line-height, 150%);
-  font-weight: var(--text-medium-normal-font-weight, 400);
+  text-align: center;
   position: relative;
   align-self: stretch;
 }
@@ -460,7 +454,7 @@ display: flex
 .heading2 {
   color: #010207;
   text-align: left;
-  font-family: "Nunito-Black", sans-serif;
+  
   font-size: var(--text-sizes-heading-6, 1.375rem);
   line-height: 140%;
   letter-spacing: -0.01em;
@@ -502,7 +496,6 @@ display: flex
 .text2 {
   color: var(--color-scheme-3-text, #010207);
   text-align: left;
-  font-family: var(--text-regular-bold-font-family, "Nunito-Bold", sans-serif);
   font-size: var(--text-regular-bold-font-size, 1rem);
   line-height: var(--text-regular-bold-line-height, 150%);
   font-weight: var(--text-regular-bold-font-weight, 700);
@@ -630,7 +623,7 @@ display: flex
 .heading3 {
   color: var(--color-scheme-3-text, #010207);
   text-align: left;
-  font-family: "Nunito-Black", sans-serif;
+  
   font-size: var(--text-sizes-heading-6, 1.375rem);
   line-height: 140%;
   letter-spacing: -0.01em;

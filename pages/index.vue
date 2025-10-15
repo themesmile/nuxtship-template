@@ -10,13 +10,13 @@ definePageMeta({
    <LandingOurValue></LandingOurValue>
    <LandingExamp></LandingExamp>
    <LandingCourse></LandingCourse>
+   <LandingTeam></LandingTeam>
+  <LandingCta></LandingCta>
 
-
-  <LandingContainer>
+  <!-- <LandingContainer>
    
     
-    <LandingFeatures></LandingFeatures>
-    <LandingLogos></LandingLogos>
-    <LandingCta></LandingCta>
-  </LandingContainer>
+
+  
+  </LandingContainer> -->
 </template>
