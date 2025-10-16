@@ -422,7 +422,9 @@
       </div>
     </div>
   </div>
-  <div class="cta-39">
+  
+</div>
+<div class="cta-39">
     <div class="devider"></div>
     <div class="container3">
       <div class="card3">
@@ -484,8 +486,6 @@
       </div>
     </div>
   </div>
-</div>
-
 </template>
 <style scoped>
 .group-of-team-and-testimonial,
@@ -501,7 +501,9 @@
   align-items: center;
   justify-content: flex-start;
   position: relative;
- font-family: "Nunito", sans-serif;
+  font-family: "Nunito", sans-serif!important;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
 }
 .card {
   background: var(--color-casablanca, #f4a340);
@@ -1131,7 +1133,7 @@
 }
 .cta-39 {
   background: var(--color-scheme-1-background, #ffffff);
-  padding: 0rem 7rem 7rem 7rem;
+  padding: 0rem 8rem 7rem 8rem;
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -1144,9 +1146,9 @@
 }
 .cta-39 .devider{
 position:absolute;
-background:red;
+background:#5C9839;
 width:100%;
-height:130px;
+height:300px;
 bottom:0;
 left:0;
 }

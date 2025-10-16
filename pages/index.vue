@@ -11,12 +11,5 @@ definePageMeta({
    <LandingExamp></LandingExamp>
    <LandingCourse></LandingCourse>
    <LandingTeam></LandingTeam>
-  <LandingCta></LandingCta>
 
-  <!-- <LandingContainer>
-   
-    
-
-  
-  </LandingContainer> -->
 </template>

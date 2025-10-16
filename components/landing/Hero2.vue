@@ -10,7 +10,7 @@
                         </div>
                         <div class="c_header1-group1">
                             <div class="c_header1-text12">
-                                <p class="c_header1-text13">Transforming Words into World</p>
+                                <p class="c_header1-text13">Transforming <span>Words</span> into World</p>
                             </div>
                 
                         </div>
@@ -180,7 +180,12 @@
         text-transform: none;
     }
 
-
+ .c_header1-text13 span{
+    background-color: #F4A340;
+    display: inline-flex;
+    padding: 7px 24px;
+    border-radius: 32px;
+ }
     .c_header1-booleanope1,
     .c_header1-vector2 {
         width: 100%;
