@@ -57,11 +57,12 @@
                     </div>
                 </div>
                 <div class="c_layout216-frame22">
-                    <div class="c_layout216-instance">
-                        <div class="c_layout216-text26">
-                            <p class="c_layout216-text27">Daftar Sekarang</p>
-                        </div>
-                    </div>
+                                        <LandingLink
+          href="#"
+          target="_blank"
+          style="background-color: #F4A340"
+          rel="noopener"
+          >Daftar Sekarang</LandingLink>
                 </div>
             </div>
         </div>

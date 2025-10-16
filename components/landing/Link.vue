@@ -43,4 +43,8 @@ const styles = {
   border-radius:60px ;
   background: #73BE48;
 }
+.second-main-btn{
+   border-radius:60px ;
+  background: #F4A340;
+}
 </style>

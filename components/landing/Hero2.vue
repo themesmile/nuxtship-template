@@ -62,7 +62,7 @@
         gap: 80px;
         width: 100%;
         display: flex;
-        padding: 5% 10%;
+        padding: 5% 0;
         overflow: hidden;
         position: relative;
         max-width: 100%;

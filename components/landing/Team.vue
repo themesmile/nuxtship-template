@@ -644,7 +644,7 @@
   gap: 5rem;
   align-items: flex-start;
   justify-content: flex-start;
-  align-self: stretch;
+  align-self:center;
   flex-shrink: 0;
   position: relative;
 }

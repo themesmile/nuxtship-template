@@ -5,6 +5,7 @@ definePageMeta({
 </script>
 
 <template>
+  
   <LandingHero2></LandingHero2>
    <LandingNumber></LandingNumber>
    <LandingOurValue></LandingOurValue>
