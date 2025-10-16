@@ -423,6 +423,7 @@
     </div>
   </div>
   <div class="cta-39">
+    <div class="devider"></div>
     <div class="container3">
       <div class="card3">
         <div class="column2">
@@ -1140,6 +1141,14 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+}
+.cta-39 .devider{
+position:absolute;
+background:red;
+width:100%;
+height:130px;
+bottom:0;
+left:0;
 }
 .container3 {
   display: flex;
