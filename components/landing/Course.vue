@@ -561,7 +561,7 @@ display: flex
   text-align: left;
   font-family: var(
     --text-regular-extra-bold-font-family,
-    "Nunito-ExtraBold",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-regular-extra-bold-font-size, 1rem);

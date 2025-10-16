@@ -185,6 +185,7 @@
     display: inline-flex;
     padding: 7px 24px;
     border-radius: 32px;
+    color:#fff;
  }
     .c_header1-booleanope1,
     .c_header1-vector2 {
