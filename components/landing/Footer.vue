@@ -350,8 +350,10 @@
 .footer,
 .footer * {
   box-sizing: border-box;
+   font-family: "Nunito", sans-serif;
 }
 .footer {
+  font-family: "Nunito", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 0.625rem;
@@ -371,6 +373,7 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+   font-family: "Nunito", sans-serif;
 }
 .container {
   display: flex;
@@ -415,7 +418,7 @@
   text-align: left;
   font-family: var(
     --text-regular-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-regular-normal-font-size, 1rem);
@@ -465,7 +468,7 @@
   text-align: left;
   font-family: var(
     --text-regular-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-regular-normal-font-size, 1rem);
@@ -504,7 +507,7 @@
   text-align: left;
   font-family: var(
     --text-tiny-normal-font-family,
-    "Nunito-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-tiny-normal-font-size, 0.75rem);
@@ -533,11 +536,13 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+  width:20%;
 }
 .pt-sebabisa-baruna-bersama {
   color: var(--color-texas-rose-light, #fed083);
+   font-family: "Nunito", sans-serif;
   text-align: left;
-  font-family: var(--text-regular-bold-font-family, "Nunito-Bold", sans-serif);
+  font-family: var(--text-regular-bold-font-family, "Nunito", sans-serif);
   font-size: var(--text-regular-bold-font-size, 1rem);
   line-height: var(--text-regular-bold-line-height, 150%);
   font-weight: var(--text-regular-bold-font-weight, 700);
@@ -570,7 +575,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Nunito-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -584,7 +589,7 @@
   text-align: left;
   font-family: var(
     --text-regular-extra-bold-font-family,
-    "Nunito-ExtraBold",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-regular-extra-bold-font-size, 1rem);
@@ -609,7 +614,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Nunito-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -623,7 +628,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Nunito-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -637,7 +642,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Nunito-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -662,7 +667,7 @@
   text-align: left;
   font-family: var(
     --text-regular-extra-bold-font-family,
-    "Nunito-ExtraBold",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-regular-extra-bold-font-size, 1rem);
@@ -676,7 +681,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -698,7 +703,7 @@
 .karir-we-re-hiring-span {
   font-family: var(
     --text-small-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
 }
@@ -711,7 +716,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -725,7 +730,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -739,7 +744,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -753,7 +758,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -767,7 +772,7 @@
   text-align: left;
   font-family: var(
     --text-regular-extra-bold-font-family,
-    "Nunito-ExtraBold",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-regular-extra-bold-font-size, 1rem);
@@ -779,7 +784,7 @@
 .bahasa-inggris {
   color: var(--color-scheme-5-text, #ffffff);
   text-align: left;
-  font-family: "Manrope-Regular", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: var(--text-sizes-text-small, 0.875rem);
   line-height: 150%;
   font-weight: 400;
@@ -789,7 +794,7 @@
 .bahasa-mandarin {
   color: var(--color-scheme-5-text, #ffffff);
   text-align: left;
-  font-family: "Manrope-Regular", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: var(--text-sizes-text-small, 0.875rem);
   line-height: 150%;
   font-weight: 400;
@@ -799,7 +804,7 @@
 .bahasa-korea {
   color: var(--color-scheme-5-text, #ffffff);
   text-align: left;
-  font-family: "Manrope-Regular", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: var(--text-sizes-text-small, 0.875rem);
   line-height: 150%;
   font-weight: 400;
@@ -809,7 +814,7 @@
 .bahasa-jepang {
   color: var(--color-scheme-5-text, #ffffff);
   text-align: left;
-  font-family: "Manrope-Regular", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: var(--text-sizes-text-small, 0.875rem);
   line-height: 150%;
   font-weight: 400;
@@ -819,7 +824,7 @@
 .bahasa-jerman-coming-soon {
   color: var(--color-scheme-5-text, #ffffff);
   text-align: left;
-  font-family: "Manrope-Regular", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: var(--text-sizes-text-small, 0.875rem);
   line-height: 150%;
   font-weight: 400;
@@ -829,7 +834,7 @@
 .general-english {
   color: var(--color-scheme-5-text, #ffffff);
   text-align: left;
-  font-family: "Manrope-Regular", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: var(--text-sizes-text-small, 0.875rem);
   line-height: 150%;
   font-weight: 400;
@@ -846,7 +851,7 @@
 .english-special-purposes {
   color: var(--color-scheme-5-text, #ffffff);
   text-align: left;
-  font-family: "Manrope-Regular", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: var(--text-sizes-text-small, 0.875rem);
   line-height: 150%;
   font-weight: 400;
@@ -863,7 +868,7 @@
 .english-score-preparation {
   color: var(--color-scheme-5-text, #ffffff);
   text-align: left;
-  font-family: "Manrope-Regular", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: var(--text-sizes-text-small, 0.875rem);
   line-height: 150%;
   font-weight: 400;
@@ -873,7 +878,7 @@
 .english-score-conversation-preparaion {
   color: var(--color-scheme-5-text, #ffffff);
   text-align: left;
-  font-family: "Manrope-Regular", sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: var(--text-sizes-text-small, 0.875rem);
   line-height: 150%;
   font-weight: 400;
@@ -895,7 +900,7 @@
   text-align: left;
   font-family: var(
     --text-regular-extra-bold-font-family,
-    "Nunito-ExtraBold",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-regular-extra-bold-font-size, 1rem);
@@ -937,7 +942,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -957,7 +962,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -992,7 +997,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Manrope-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -1037,7 +1042,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Nunito-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -1059,7 +1064,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Nunito-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -1072,7 +1077,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Nunito-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);
@@ -1085,7 +1090,7 @@
   text-align: left;
   font-family: var(
     --text-small-normal-font-family,
-    "Nunito-Regular",
+    "Nunito",
     sans-serif
   );
   font-size: var(--text-small-normal-font-size, 0.875rem);

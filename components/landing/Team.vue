@@ -1143,6 +1143,7 @@
   flex-shrink: 0;
   position: relative;
   overflow: hidden;
+   font-family: "Nunito", sans-serif;
 }
 .cta-39 .devider{
 position:absolute;
