@@ -385,7 +385,7 @@ display: flex
     gap: 3rem;
     align-items: center;
     justify-content: space-evenly;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-content: center;
     align-self: center;
     flex: 1;

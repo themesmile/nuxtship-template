@@ -707,7 +707,7 @@
   gap: 2rem;
   align-items: flex-start;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: balance;
   align-content: flex-start;
   align-self: stretch;
   flex-shrink: 0;

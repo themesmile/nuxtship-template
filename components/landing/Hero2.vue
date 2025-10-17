@@ -10,7 +10,9 @@
                         </div>
                         <div class="c_header1-group1">
                             <div class="c_header1-text12">
-                                <p class="c_header1-text13">Transforming <span>Words</span> into World</p>
+                                <p class="c_header1-text13">Transforming
+  <img src="~/assets/img/words.svg" alt="vector" class="telah_dipercaya" />
+                                World</p>
                             </div>
                 
                         </div>

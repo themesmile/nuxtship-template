@@ -427,6 +427,7 @@ definePageMeta({
   <div class="contact-20">
     <div class="rectangle-7"></div>
     <div class="container4">
+         <img src="~/assets/img/kontak-aksen.png" alt="vector" class="contact-accent" />
       <svg
         class="vector"
         width="220"
@@ -1383,15 +1384,14 @@ definePageMeta({
     var(--section-padding-padding-section-large, 7rem)
     var(--page-padding-padding-global, 4rem);
   display: flex;
-  flex-direction: column;
-  gap: 5rem;
-  align-items: center;
-  justify-content: flex-start;
-  align-self: stretch;
-  flex-shrink: 0;
-  height: 48rem;
-  position: relative;
-  overflow: hidden;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
 }
 .rectangle-7 {
  background: #5c9839;
@@ -1608,5 +1608,9 @@ definePageMeta({
   overflow: visible;
   aspect-ratio: 1;
 }
-
+img.contact-accent{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 </style>

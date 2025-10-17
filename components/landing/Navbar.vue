@@ -2,16 +2,16 @@
 const menuitems = [
   {
     title: "Home",
-    path: "#",
+    path: "/",
   },
    {
     title: "About Us",
     path: "/about",
   },
-  {
-    title: "Pricing",
-    path: "/pricing",
-  },
+  // {
+  //   title: "Pricing",
+  //   path: "/pricing",
+  // },
  
   {
     title: "Contact",
