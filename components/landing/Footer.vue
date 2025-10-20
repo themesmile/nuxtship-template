@@ -363,7 +363,7 @@
 }
 .footer-1 {
   background: #5c9839;
-  padding: 2rem 7rem 2rem 7rem;
+  padding: 7rem 7rem 2rem 7rem;
   display: flex;
   flex-direction: column;
   gap: 5rem;
@@ -405,6 +405,7 @@
   justify-content: flex-start;
   flex-shrink: 0;
   position: relative;
+  width: 30%;
 }
 .vector {
   flex-shrink: 0;
@@ -1101,6 +1102,9 @@
 
 /* Mobile responsiveness */
 @media (max-width: 767px) {
+  .newsletter{
+    width: 100%;
+  }
   .footer-1 {
     padding: 1rem 1rem 1rem 1rem;
   }

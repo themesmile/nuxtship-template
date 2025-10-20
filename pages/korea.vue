@@ -8,12 +8,12 @@
     <section class="w-element w-header">
       <div class="w-element w-div">
         <h1 class="w-element w-element-8">
-          Kuasai Bahasa <span class="bubble_sekolah_bahasa">Mandarin</span><br> dengan Cepat dan Mudah
+          Kuasai Bahasa <span class="bubble_sekolah_bahasa">Korea</span><br> dengan Cepat dan Mudah
         </h1>
         <p class="w-element w-element-9">
-          Tingkatkan kemampuan bahasa Mandarin Anda bersama instruktur
+          Tingkatkan kemampuan bahasa Korea Anda bersama instruktur
           profesional. Dapatkan kepercayaan diri berkomunikasi dalam bahasa
-          Mandarin.
+          Korea.
         </p>
         <button class="w-element w-element-10">Daftar Langsung</button>
       </div>
@@ -21,17 +21,17 @@
     <div class="w-element w-mandarin-benefit">
       <div class="w-element w-left">
         <img alt="" class="w-image w-image-1"
-          src="~/assets/img/mandarin_model.png" 
+          src="~/assets/img/korean_model.png" 
           decoding="async" loading="lazy" />
       </div>
       <div class="w-element w-right">
-        <h1 class="w-element w-h5">Mandarin</h1>
+        <h1 class="w-element w-h5">Korea</h1>
         <h1 class="w-element w-element-12">
-          Program belajar bahasa Mandarin terbaik
+          Program belajar bahasa Korea terbaik
         </h1>
         <p class="w-element w-element-13">
           Kami menawarkan pendekatan komprehensif dan interaktif untuk
-          mempelajari bahasa Mandarin. Kurikulum kami dirancang untuk
+          mempelajari bahasa Korea. Kurikulum kami dirancang untuk
           memaksimalkan potensi belajar Anda.
         </p>
         <button class="w-element w-element-11">Lihat program</button>
@@ -42,7 +42,7 @@
         <div class="w-element w-right-1">
           <h1 class="w-element w-h5-1">Keunggulan Kami</h1>
           <h1 class="w-element w-element-14">
-            Fitur unggulan program belajar bahasa Mandarin
+            Fitur unggulan program belajar bahasa Korea
           </h1>
           <p class="w-element w-element-15">
             Kami menyediakan metode pengajaran terkini yang efektif dan
@@ -107,7 +107,7 @@
         <p class="w-element w-element-20">
           Bergabunglah dengan ribuan pelajar yang telah mencapai keberhasilan
           dalam berbahasa inggris dan mulailah perjalanan menuju penguasaan
-          Mandarin yang lebih baik !
+          Korea yang lebih baik !
         </p>
       </div>
       <div class="w-element w-pricebox-nest">
@@ -543,7 +543,7 @@
       background-color: #fff;
       text-align: center;
       position: relative;
-      background-image: url(/assets/img/mandarin_header.svg);
+      background-image: url(/assets/img/korea_header.svg);
       background-size: cover;
       background-repeat: no-repeat;
       background-attachment: scroll;
@@ -691,7 +691,7 @@
     }
 
     .w-nest {
-      background-color: #e3f2da;
+      background-color: #FFECCD;
       border-top-width: 0px;
       border-right-width: 0px;
       border-left-width: 0px;
@@ -719,7 +719,7 @@
       display: inline-block;
       font-family: Nunito, sans-serif;
       font-size: 22px;
-      background-color: #73be48;
+      background-color: #F4A340;
       text-align: start;
       object-fit: fill;
       position: relative;
@@ -835,7 +835,7 @@
       position: relative;
       display: inline-block;
       padding: 10px 20px;
-      background-color: #5da831;
+      background-color: #F4A340;
       border-top-style: none;
       border-right-style: none;
       border-left-style: none;
@@ -1628,7 +1628,7 @@
       background-position: 50% 100%
     }
 
-    .w-mandarin-benefit {
+    .w-Korea-benefit {
       column-gap: 36px;
       row-gap: 36px
     }

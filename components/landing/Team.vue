@@ -364,6 +364,218 @@
     box-sizing: border-box;
   }
 
+  .group-of-team-and-testimonial,
+  .group-of-team-and-testimonial * {
+    box-sizing: border-box;
+  }
+
+  .group-of-team-and-testimonial {
+    background: #ffffff;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    font-family: "Nunito", sans-serif !important;
+    font-optical-sizing: auto;
+  }
+
+  .card {
+    background: var(--color-casablanca, #f4a340);
+    border-radius: 1.25rem;
+    border-style: solid;
+    border-color: var(--color-scheme-1-border, transparent);
+    border-width: 0.125rem;
+    padding: 5.625rem 7.5rem 5.625rem 7.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .frame-13 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    position: relative;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    row-gap: 7.5rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    flex: 1;
+    position: relative;
+  }
+
+  .union {
+    flex-shrink: 0;
+    width: 16.510625rem;
+    height: 16.5675rem;
+    position: absolute;
+    left: 71.114375rem;
+    top: 2.651875rem;
+    overflow: visible;
+  }
+
+  .union2 {
+    flex-shrink: 0;
+    width: 13.125rem;
+    height: 13.170625rem;
+    position: absolute;
+    left: -8.1875rem;
+    top: -7.910625rem;
+    overflow: visible;
+  }
+
+  .frame-132 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    width: 9.75rem;
+    position: relative;
+  }
+
+  .image-1 {
+    align-self: stretch;
+    flex-shrink: 0;
+    height: 7.14625rem;
+    position: relative;
+    object-fit: cover;
+    aspect-ratio: 156/114.34;
+  }
+
+  .frame-133 {
+    padding: 0rem 0rem 0rem 2.625rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+    position: relative;
+  }
+
+  .text {
+    color: #210a5a;
+    text-align: left;
+    font-size: var(--text-large-medium-font-size, 1.375rem);
+    line-height: var(--text-large-medium-line-height, 150%);
+    font-weight: var(--text-large-medium-font-weight, 500);
+    position: relative;
+    flex: 1;
+  }
+
+  .testimonials {
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .testimonial-20 {
+    background: var(--color-scheme-7-background, #e3f2da);
+    border-radius: 1.875rem;
+    padding: var(--section-padding-padding-section-large, 7rem) var(--page-padding-padding-global, 4rem) var(--section-padding-padding-section-large, 7rem) var(--page-padding-padding-global, 4rem);
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: flex-start;
+    align-self: stretch;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .frame-8 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    height: auto;
+    position: absolute;
+    right: 3.341875rem;
+    top: 3.41625rem;
+    overflow: visible;
+  }
+
+  .container {
+    padding: 0rem 5.625rem 0rem 5.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: center;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .section-title {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    flex-shrink: 0;
+    max-width: var(--max-width-max-width-large, 48rem);
+    position: relative;
+  }
+
+  .tagline-wrapper {
+    background: var(--color-mantis, #73be48);
+    border-radius: 1.25rem;
+    padding: 0.1875rem 0.75rem 0.1875rem 0.75rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    align-items: center;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .tagline {
+    color: var(--color-white, #ffffff);
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 150%;
+    letter-spacing: 0.09em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  .heading {
+    color: var(--color-scheme-7-text, #010207);
+    text-align: left;
+  }
+
   .group-of-team-and-testimonial {
     background: #ffffff;
     padding: 0rem 1.5rem 0rem 1.5rem;
@@ -1230,11 +1442,13 @@
       display: flex;
       flex-direction: column;
     }
-.c_our-value-text13, 
-.medium-length-section-heading-goes-here-span2{
-  font-size: 36px!important;
-  line-height: 36px!important;
-}
+
+    .c_our-value-text13,
+    .medium-length-section-heading-goes-here-span2 {
+      font-size: 36px !important;
+      line-height: 36px !important;
+    }
+
     .avatar[data-v-c4c5e3f0] {
       display: flex;
       flex-direction: column;
@@ -1248,9 +1462,11 @@
     .group-of-team-and-testimonial {
       padding: 0rem 1rem 0rem 1rem;
     }
-.frame-133{
-  padding: 0;
-}
+
+    .frame-133 {
+      padding: 0;
+    }
+
     .card {
       padding: 2rem 2rem 2rem 2rem;
     }
