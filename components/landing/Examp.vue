@@ -419,12 +419,77 @@
         font-weight: var(--text-regular-medium-font-weight, 500);
         position: relative;
     }
+.chevron-right {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
 
-    .chevron-right {
-        flex-shrink: 0;
-        width: 24px;
-        height: 24px;
-        position: relative;
-        overflow: visible;
-    }
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .examp {
+    padding: 0px 1rem 0px 1rem;
+  }
+
+  .layout-304 {
+    padding: 3rem 1rem;
+    gap: 2rem;
+  }
+
+  .section-title {
+    height: auto;
+  }
+
+  .medium-length-section-heading-goes-here {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .medium-length-section-heading-goes-here-span,
+  .medium-length-section-heading-goes-here-span2 {
+    font-size: 2rem;
+  }
+
+  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-suspendisse-varius-enim-in-eros-elementum-tristique-duis-cursus-mi-quis-viverra-ornare-eros-dolor-interdum-nulla-ut-commodo-diam-libero-vitae-erat {
+    font-size: 1rem;
+  }
+
+  .row {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .column {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+  }
+
+  .content2 {
+    width: 100%;
+    align-items: center;
+  }
+
+  .medium-length-section-heading-goes-here2 {
+    text-align: center;
+  }
+
+  .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-suspendisse-varius-enim-in-eros-elementum-tristique-duis-cursus-mi-quis-viverra-ornare-eros-dolor-interdum-nulla-ut-commodo-diam-libero-vitae-erat2 {
+    text-align: center;
+  }
+
+  .actions {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .button,
+  .button3 {
+    width: 100%;
+    justify-content: center;
+  }
+}
 </style>

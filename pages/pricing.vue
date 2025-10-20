@@ -73,7 +73,18 @@ const pricing = [
     </LandingSectionhead>
 
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-screen-lg mt-12">
-      <LandingPricing v-for="item of pricing" :plan="item" />
+      <LandingPricing v-for="item of pricing" :plan="item" :key="item.name" />
     </div>
   </LandingContainer>
 </template>
+
+<style scoped>
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin: 2rem 1rem;
+  }
+}
+</style>

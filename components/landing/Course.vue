@@ -758,4 +758,58 @@ display: flex
   overflow: visible;
 }
 
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .course {
+    padding: 3rem 1rem 3rem 1rem;
+  }
+
+  .container {
+    height: auto;
+  }
+
+  .heading {
+    font-size: 2rem;
+  }
+
+  .content2 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .column,
+  .column2,
+  .column3 {
+    width: 100%;
+  }
+
+  .group-10 {
+    width: 100%;
+  }
+
+  .subtract,
+  .subtract2,
+  .subtract3 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 21.333125/12.973125;
+  }
+
+  .rectangle-10,
+  .rectangle-102,
+  .rectangle-103 {
+    left: auto;
+    right: 0.75rem;
+  }
+
+  .content3 {
+    padding: 0rem 1rem 0rem 1rem;
+  }
+
+  .button,
+  .button3,
+  .button4 {
+    justify-content: center;
+  }
+}
 </style>

@@ -1099,4 +1099,34 @@
   position: relative;
 }
 
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .footer-1 {
+    padding: 1rem 1rem 1rem 1rem;
+  }
+
+  .content {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+
+  .links {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .footer-links2 {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
 </style>

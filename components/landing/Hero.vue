@@ -73,4 +73,38 @@ Mau Pede Ngomong Pake Bahasa Asing ?
   margin-bottom: 0;
   letter-spacing: -1px;
   text-transform: none;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .main-hero {
+    padding: 0 1rem;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .main-hero > div:first-child {
+    order: 2;
+  }
+
+  .main-hero > div:last-child {
+    order: 1;
+  }
+
+  .c_medium-length-hero-h-text2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  h1 {
+    font-size: 2.5rem !important;
+  }
+
+  .mt-6 {
+    margin-top: 2rem;
+  }
+
+  .flex-col.sm\\:flex-row {
+    flex-direction: column;
+  }
 }</style>

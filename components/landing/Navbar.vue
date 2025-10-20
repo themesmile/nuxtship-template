@@ -8,11 +8,11 @@ const menuitems = [
     title: "About Us",
     path: "/about",
   },
-  // {
-  //   title: "Pricing",
-  //   path: "/pricing",
-  // },
- 
+  {
+    title: "Mandarin",
+    path: "/mandarin",
+  },
+
   {
     title: "Contact",
     path: "/contact",
@@ -48,7 +48,7 @@ const open = ref(false);
         :class="{ block: open, hidden: !open }"
       >
         <ul class="flex flex-col lg:flex-row lg:gap-3">
-          <li v-for="item of menuitems">
+          <li v-for="item of menuitems" :key="item.path">
             <a
               :href="item.path"
               class="flex lg:px-3 py-2 text-gray-600 hover:text-gray-900"
@@ -74,10 +74,35 @@ const open = ref(false);
   </LandingContainer>
 </template>
 <style scoped>
-header {
- 
-}
+
 img.logo-topbar{
     height: 35px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  header {
+    padding: 1rem;
+  }
+
+  img.logo-topbar {
+    height: 28px;
+  }
+
+  nav ul {
+    padding: 1rem 0;
+  }
+
+  nav ul li {
+    padding: 0.5rem 0;
+  }
+
+  nav ul li a {
+    font-size: 1rem;
+  }
+
+  .lg\\:hidden.flex.items-center.mt-3.gap-4 {
+    margin-top: 1rem;
+  }
 }
 </style>

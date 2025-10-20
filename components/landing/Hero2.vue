@@ -11,14 +11,13 @@
                         <div class="c_header1-group1">
                             <div class="c_header1-text12">
                                 <p class="c_header1-text13">Transforming
-  <img src="~/assets/img/words.svg" alt="vector" class="telah_dipercaya" />
-                                World</p>
+                                    <img src="~/assets/img/words.svg" alt="vector" class="telah_dipercaya" />
+                                    World</p>
                             </div>
-                
+
                         </div>
                         <div class="c_header1-frame15">
-                             <img src="~/assets/img/telah_dipercaya.svg" alt="vector" 
-                                    class="telah_dipercaya" />
+                            <img src="~/assets/img/telah_dipercaya.svg" alt="vector" class="telah_dipercaya" />
                         </div>
                         <div class="c_header1-text20">
                             <p class="c_header1-text21">
@@ -27,16 +26,11 @@
                                 butuhkan!
                             </p>
                         </div>
-                         <div class="mt-6 flex flex-col sm:flex-row gap-3">
-        <LandingLink
-          href="#"
-          target="_blank"
-          rel="noopener"
-          >Temukan kelas pilihanmu</LandingLink
-        >
-     
-        
-      </div>
+                        <div class="mt-6 flex flex-col sm:flex-row gap-3">
+                            <LandingLink href="#" target="_blank" rel="noopener">Temukan kelas pilihanmu</LandingLink>
+
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -44,8 +38,7 @@
                 <!-- <img src="./assets/95361555.svg" alt="vector" :width="613.00244140625" :height="677.9375610351562"
                     class="c_header1-vector9" /> -->
                 <div class="c_header1-group2">
-                    <img src="~/assets/img/herohomemodel.png" alt="booleanope" :width="590.0035400390625"
-                        :height="697.0001831054688" class="c_header1-booleanope2" />
+                    <img src="~/assets/img/herohomemodel.png" alt="booleanope" class="c_header1-booleanope2" />
                     <!-- <img src="./assets/95361561.png" alt="rectangle" :width="590.0045166015625"
                         :height="676.9998779296875" class="c_header1-rectangle" /> -->
                 </div>
@@ -76,6 +69,20 @@
         background-color: #f1f8ec;
     }
 
+    @media (max-width: 768px) {
+        .c_header1-frame10 {
+            gap: 40px;
+            padding: 10% 5%;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .c_header1-frame10 {
+            gap: 20px;
+            padding: 15% 5%;
+        }
+    }
+
 
     .c_header1-vector1 {
         top: 50px;
@@ -98,7 +105,21 @@
         flex-wrap: wrap;
         box-sizing: border-box;
         align-items: center;
-        justify-content:   space-evenly;
+        justify-content: space-evenly;
+    }
+
+    @media (max-width: 768px) {
+        .c_header1-frame11 {
+            flex-direction: column;
+            justify-content: center;
+            gap: 40px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .c_header1-frame11 {
+            gap: 20px;
+        }
     }
 
 
@@ -106,7 +127,7 @@
     .c_header1-frame13,
     .c_header1-frame14 {
         width: 100%;
-        max-width: 494px;
+        max-width: 585px;
         box-sizing: border-box;
     }
 
@@ -120,12 +141,33 @@
         justify-content: flex-start;
     }
 
+    @media (max-width: 768px) {
+        .c_header1-frame14 {
+            gap: 16px;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .c_header1-frame14 {
+            gap: 12px;
+        }
+    }
+
 
     .c_header1-text10,
     .c_header1-text11 {
         margin-top: 0;
         text-align: left;
         margin-bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+        .c_header1-text10,
+        .c_header1-text11 {
+            text-align: center;
+        }
     }
 
 
@@ -147,6 +189,20 @@
         text-transform: none;
     }
 
+    @media (max-width: 768px) {
+        .c_header1-text11 {
+            font-size: 24px;
+            line-height: 32px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .c_header1-text11 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+    }
+
 
     .c_header1-group1 {
         width: 100%;
@@ -161,6 +217,13 @@
         margin-top: 0;
         text-align: left;
         margin-bottom: 0;
+    }
+
+    @media (max-width: 768px) {
+        .c_header1-text12,
+        .c_header1-text13 {
+            text-align: center;
+        }
     }
 
 
@@ -182,13 +245,34 @@
         text-transform: none;
     }
 
- .c_header1-text13 span{
-    background-color: #F4A340;
-    display: inline-flex;
-    padding: 7px 24px;
-    border-radius: 32px;
-    color:#fff;
- }
+    @media (max-width: 768px) {
+        .c_header1-text13 {
+            font-size: 48px;
+            line-height: 48px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .c_header1-text13 {
+            font-size: 36px;
+            line-height: 36px;
+        }
+        img.telah_dipercaya{
+        margin: 0 auto;
+    width: 220px;
+    display: block;
+            
+        }
+    }
+
+    .c_header1-text13 span {
+        background-color: #F4A340;
+        display: inline-flex;
+        padding: 7px 24px;
+        border-radius: 32px;
+        color: #fff;
+    }
+
     .c_header1-booleanope1,
     .c_header1-vector2 {
         width: 100%;
@@ -359,6 +443,14 @@
         margin-bottom: 0;
     }
 
+    @media (max-width: 768px) {
+        .c_header1-text19,
+        .c_header1-text20,
+        .c_header1-text21 {
+            text-align: center;
+        }
+    }
+
 
     .c_header1-text20 {
         width: 100%;
@@ -376,6 +468,20 @@
         line-height: 27px;
         letter-spacing: 0;
         text-transform: none;
+    }
+
+    @media (max-width: 768px) {
+        .c_header1-text21 {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .c_header1-text21 {
+            font-size: 14px;
+            line-height: 21px;
+        }
     }
 
 
@@ -450,6 +556,14 @@
         justify-content: flex-start;
     }
 
+    @media (max-width: 768px) {
+        .c_header1-frame21 {
+            max-width: 100%;
+            display: flex;
+            align-items: center;
+        }
+    }
+
 
     .c_header1-vector9 {
         width: 100%;
@@ -475,6 +589,27 @@
         margin: 0;
         display: block;
         max-width: 590.0035400390625px;
+    }
+
+    @media (max-width: 768px) {
+        .c_header1-booleanope2,
+        .c_header1-rectangle {
+            max-width: 400px;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .c_header1-booleanope2,
+        .c_header1-rectangle {
+            max-width: 300px;
+        }
+    }
+
+    /* Optimize image loading for different screen sizes */
+    @media (max-width: 480px) {
+        .c_header1-booleanope2 {
+            content: url('~/assets/img/herohomemodel.png'); /* Use smaller image if available */
+        }
     }
 
 

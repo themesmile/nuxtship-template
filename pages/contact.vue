@@ -1079,5 +1079,102 @@ img.contact-accent{
     top: 0;
     left: 0;
 }
-  
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .abut-us-header {
+    padding: 1rem;
+  }
+img.contact-accent{
+  width: 40%;
+
+}
+  .container-sekolah {
+    padding: 3rem 2rem 3rem 2rem;
+  }
+
+  .component {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .column {
+    align-items: center;
+    text-align: center;
+  }
+
+  .belajar-bahasa-asing-di-sekolah-bahasa {
+    font-size: 2rem;
+  }
+
+  .map {
+    padding: 2rem 1rem 0rem 1rem;
+  }
+
+  .cabang-sekolahbahasa {
+    gap: 2rem;
+  }
+
+  .content-cabang {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .map2 {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+  }
+
+  .cabang-title {
+    padding: 0px 0px 0px 0px;
+    height: auto;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  .row-alamat {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .content,
+  .frame-81 {
+    min-width: auto;
+    max-width: 100%;
+  }
+
+  .content2 {
+    width: 100%;
+  }
+
+  .contact-20 {
+    padding: 0rem 1rem 3rem 1rem;
+  }
+
+  .container4 {
+    padding: 10rem 2rem 5rem 2rem;
+  }
+
+  .row3 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .content7,
+  .content8 {
+    min-width: auto;
+    max-width: 100%;
+  }
+
+  .heading6 {
+    text-align: center;
+  }
+
+  .text8 {
+    text-align: center;
+  }
+}
 </style>

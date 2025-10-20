@@ -1613,4 +1613,55 @@ img.contact-accent{
     top: 0;
     left: 0;
 }
+
+/* Mobile responsiveness */
+@media (max-width: 767px) {
+  .group-10{
+    width: 100%;
+  }
+  .component2{
+    row-gap:0;
+  }
+  .group-10{
+    height:auto;
+    margin-bottom: 32px;
+  }
+  .abut-us-header {
+    padding: 1rem;
+  }
+
+  .container-sekolah {
+    padding: 3rem 2rem 3rem 2rem;
+  }
+
+  .component {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .column {
+    align-items: center;
+    text-align: center;
+  }
+
+  .belajar-bahasa-asing-di-sekolah-bahasa {
+    font-size: 2rem;
+  }
+
+  .sekolah-bahasa-adalah-tempat-terbaik-untuk-meningkatkan-kemampuan-berbahasa-asing-anda-dengan-pengajaran-dari-instruktur-berpengalaman-kami-siap-membantu-anda-mencapai-tujuan-bahasa-anda {
+    text-align: center;
+  }
+  .gallery {
+    padding: 0 24px;
+  }
+  .container3 {
+    padding: 24px;
+  }
+  .container4, .contact-20{
+      padding: 10rem 2rem 2rem;
+  }
+  img.contact-accent{
+    width: 50%;
+  }
+}
 </style>
