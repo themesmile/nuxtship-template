@@ -1332,6 +1332,7 @@
     flex-shrink: 0;
     position: relative;
     overflow: hidden;
+    width: 60%;
   }
 
   .content9 {
@@ -1427,7 +1428,7 @@
   .placeholder-image3 {
     border-radius: 1.5rem;
     flex-shrink: 0;
-    width: 30rem;
+    width: 40%;
     height: 26.75rem;
     position: relative;
     object-fit: cover;
@@ -1553,6 +1554,7 @@
 
     .column2 {
       padding: 2rem;
+      width: 100%;
     }
 
     .heading3 {

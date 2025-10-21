@@ -539,7 +539,7 @@
   .c_layout216-text17,
   .c_layout216-text21,
   .c_layout216-text25 {
-    text-align: center;
+    text-align: left;
   }
 
   .c_layout216-frame22 {
