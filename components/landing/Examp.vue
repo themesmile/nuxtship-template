@@ -93,7 +93,7 @@
                             fill="var(--color-casablanca, #f4a340)" />
                     </svg>
                     <div class="content2">
-                        <div class="medium-length-section-heading-goes-here3">
+                        <div class="medium-length-section-heading-goes-here2">
                             Konfirmasi pembayaran
                         </div>
                         <div

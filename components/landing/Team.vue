@@ -238,6 +238,53 @@
         </div>
       </div>
     </div>
+    <!-- Logo -->
+    <section class="flex flex-col gap-6 items-center px-16 py-20 max-md:px-8 max-md:py-16 max-sm:px-5 max-sm:py-10">
+      <div class="flex flex-col gap-6 items-center w-full max-w-screen-xl">
+        <h2 class="m-0 w-full text-lg font-bold leading-7 text-center text-black max-w-[560px]">
+          TELAH DIPERCAYA OLEH
+        </h2>
+        <div class="flex flex-wrap gap-8 justify-center content-center items-center w-full max-sm:gap-6">
+          <img src="~/assets/img/sgi.png"
+            alt="SGI" class="object-contain h-[60px] w-[139px]" />
+          <img src="~/assets/img/dnr.png"
+            alt="DNR" class="object-contain h-[60px] w-[158px]" />
+          <img src="~/assets/img/jojo.png"
+            alt="Jojonomic" class="object-contain h-[60px] w-[343px] max-sm:w-full max-sm:max-w-[343px]" />
+          <img src="~/assets/img/care_tech.png"
+            alt="Caretech" class="object-contain h-[60px] w-[187px]" />
+          <img src="~/assets/img/uta_45.png"
+            alt="UTA 45" class="object-contain h-[60px] w-[200px]" />
+          <img src="~/assets/img/ronggolawe.png"
+            alt="Ronngolawe" class="object-contain h-[60px] w-[60px]" />
+          <img src="~/assets/img/smk_ypi.png"
+            alt="SMK YPI" class="object-contain h-[60px] w-[63px]" />
+          <img src="~/assets/img/discipline.png"
+            alt="Discipline" class="object-contain h-[60px] w-[60px]" />
+          <img src="~/assets/img/blora.png"
+            alt="Blora" class="object-contain h-[60px] w-[59px]" />
+          <img src="~/assets/img/dedi.png"
+            alt="Dedi" class="object-contain h-[60px] w-[100px]" />
+          <img src="~/assets/img/indokotraktor.png"
+            alt="Indokontraktor" class="object-contain w-20 h-[60px]" />
+          <img src="~/assets/img/iwapi.png"
+            alt="IWAPI" class="object-contain h-[60px] w-[61px]" />
+          <img src="~/assets/img/wikan.png"
+            alt="wikan" class="object-contain h-[60px] w-[62px]" />
+          <img src="~/assets/img/undhi.png"
+            alt="undhi" class="object-contain w-16 h-[60px]" />
+          <img src="~/assets/img/interlogic.png"
+            alt="Interiologic" class="object-contain h-[60px] w-[67px]" />
+          <img src="~/assets/img/getcourse.png"
+            alt="GetCourse" class="object-contain h-[47px] w-[326px] max-sm:w-full max-sm:max-w-[326px]" />
+          <img src="~/assets/img/tricor.png"
+            alt="Tricor" class="object-contain h-[60px] w-[177px]" />
+          <img src="~/assets/img/akamigas.png"
+            alt="PEM Akamigas" class="object-contain h-[60px] w-[188px]" />
+        </div>
+      </div>
+    </section>
+    <!-- end of Logo -->
     <div class="team">
       <div class="container2">
         <div class="frame-76">

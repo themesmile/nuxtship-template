@@ -92,7 +92,7 @@
                 </div>
                 <div class="contact-info">
                   <div class="heading2">Office 2</div>
-                  <div class="link">Coming Soon</div>
+                  <div class="link">Cepu (Coming Soon)</div>
                 </div>
               </div>
             </div>
@@ -125,7 +125,7 @@
               </div>
               <div class="contact-info">
                 <div class="heading2">Phone</div>
-                <div class="link">+1 (555) 000-0000</div>
+                <div class="link">+62 812-3489-9143</div>
               </div>
             </div>
             <div class="frame-81">
@@ -176,7 +176,7 @@
               </div>
               <div class="contact-info">
                 <div class="heading2">Phone</div>
-                <div class="link"> Coming Soon</div>
+                <div class="link"> +62 812-3489-9143</div>
               </div>
             </div>
             <div class="frame-81">
@@ -227,7 +227,7 @@
               </div>
               <div class="contact-info">
                 <div class="heading2">Phone</div>
-                <div class="link"> Coming Soon</div>
+                <div class="link"> +62 812-3489-9067</div>
               </div>
             </div>
             <div class="frame-81">
